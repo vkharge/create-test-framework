@@ -1,0 +1,3 @@
+COMPONENTS:
+  - "login-form"
+on load validation: "login button:displayed|enabled"

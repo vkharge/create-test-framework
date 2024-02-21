@@ -1,0 +1,33 @@
+{
+  "browserName": "chrome",
+  "headless": true,
+  "timeout": 90000,
+  "viewport": {
+    "width": 1280,
+    "height": 900
+  },
+  "video": "retain-on-failure",
+  "screenshot": "only-on-failure",
+  "trace": "retain-on-failure",
+  "har": "retain-on-failure",
+  "consoleLogValidation": false,
+  "testdata": {
+    "username": "Admin",
+    "password": "admin123"
+  },
+  "apps": [
+    {
+      "appName": "Orange-HRM",
+      "appURL": "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login",
+      "browserName": "chrome",
+      "skipConsoleErrors": []
+    }
+  ],
+  "selectorPath": "./locators",
+  "logLevel": "error",
+  "reportPath": "./test-reports",
+  "artifactsPath": "./test-reports/artifacts",
+  "reportFileName": "Orange_HRM_Report",
+  "retry": 0,
+  "parallel": 1
+}

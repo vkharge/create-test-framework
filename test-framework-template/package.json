@@ -1,0 +1,17 @@
+{
+  "name": "test-framework-template",
+  "version": "0.1.0-beta.06",
+  "keywords": [
+    "test-framework-template",
+    "bdd-test-framework",
+    "create-bdd-test-framework"
+  ],
+  "description": "The base template for Create BDD Test Framework.",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16"
+  },
+  "files": [
+    "template"
+  ]
+}

@@ -1,0 +1,6 @@
+COMPONENTS:
+  - "side-bar"
+  - "pim-header-menu"
+on load validation: "employee details header:displayed"
+
+employee details header: '//h6[text()="Personal Details"]'

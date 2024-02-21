@@ -1,0 +1,3 @@
+COMPONENTS:
+  - "side-bar"
+on load validation: "admin:displayed|enabled"

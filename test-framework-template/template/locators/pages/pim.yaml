@@ -1,0 +1,4 @@
+COMPONENTS:
+  - "side-bar"
+  - "pim-header-menu"
+on load validation: "employee list:displayed|enabled"

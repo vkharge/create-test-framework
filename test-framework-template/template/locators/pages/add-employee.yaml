@@ -1,0 +1,10 @@
+COMPONENTS:
+  - "side-bar"
+  - "pim-header-menu"
+on load validation: "save button:displayed|enabled"
+
+employee first name: "input[name=firstName]"
+employee middle name: "input[name=middleName]"
+employee last name: "input[name=lastName]"
+employee id: '//label[text()="Employee Id"]/ancestor::div[contains(@class, "oxd-input-group")]//input'
+save button: '//button[normalize-space()="Save"]'
